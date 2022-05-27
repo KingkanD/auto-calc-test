@@ -1,5 +1,5 @@
 describe('Open Google',() =>{
-    it('loop Google', () =>{
+    it('Google calculator', () =>{
        cy.visit('https://www.google.com')
    cy.get('input[name="q"]').type ('google calculator')
    cy.contains('ค้นหาด้วย Google').click()

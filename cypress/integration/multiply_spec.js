@@ -1,6 +1,6 @@
 // let log = console.log
 describe('Open Google',() =>{
- it('loop Google', () =>{
+ it('Google calculato', () =>{
     cy.visit('https://www.google.com')
 cy.get('[name="q"]').type ('google calculator')
 cy.contains('ค้นหาด้วย Google').click()
